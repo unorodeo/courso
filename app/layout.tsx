@@ -1,6 +1,8 @@
 import "@/styles/globals.css";
 
 import type { Metadata } from "next";
+import { Providers } from "@/components/providers";
+import { cn } from "@/lib/cn";
 import { inter } from "@/lib/fonts/font";
 
 export const metadata: Metadata = {
@@ -18,8 +20,8 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning={true}
     >
-      <body className={`font-inter antialiased ${inter.variable}`}>
-        {children}
+      <body className={cn("font-inter antialiased", inter.variable)}>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
