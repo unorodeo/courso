@@ -2,9 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Icons } from "@/components/ui/icons";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import Link from "next/link";
-import { cn } from "@/lib/cn";
-import { focusRing } from "@/components/ui/focuses";
 
 export function ResetPasswordForm() {
   return (
