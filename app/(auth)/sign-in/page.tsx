@@ -10,7 +10,7 @@ export default function SignInPage() {
           <SignInForm />
           <div className="relative hidden bg-muted md:block">
             <img
-              src="/poster.jpg"
+              src="/sign-in-poster.jpg"
               alt="A simple anime style poster of a house"
               className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
             />
